@@ -1,0 +1,68 @@
+.page-container {
+  width: 100%;
+}
+
+.page-header {
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+}
+
+.page-header h1 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.page-subtitle {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.health-card {
+  margin-top: var(--spacing-xl);
+}
+
+.health-status {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.status-item:last-child {
+  border-bottom: none;
+}
+
+.status-label {
+  color: var(--text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.status-value {
+  color: var(--text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.status-ok {
+  color: var(--success);
+}
+
+.error-message {
+  color: var(--error);
+  padding: var(--spacing-md);
+  background: rgba(255, 79, 79, 0.1);
+  border: 1px solid var(--error);
+  border-radius: var(--radius-sm);
+  margin-top: var(--spacing-md);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
