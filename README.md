@@ -21,6 +21,75 @@ AI Course Advisor helps students quickly find answers to their course-related qu
 - **AI Engine:** Google Gemini 2.5 Pro (via REST API)
 - **Authentication:** Supabase Auth
 
+# B - Product Guide and Example using
+
+---
+#Product demo link: youtube.com/watch?v=87_czrMv3BQ&feature=youtu.be
+
+# 1. Sign Up and Login
+Once you have opened: [http://localhost:3000](http://localhost:3000) in step 5, you should see our interface:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/b05ba1c4-0ede-4fb4-8125-bb2399a5f7b1" />
+
+1. At the top right corner, click **Sign In**.
+2. If you don't have an account, click **Sign Up**.
+3. Once you have entered your email and password, you should receive a verification email such as:
+
+     <img width="320" alt="image" src="https://github.com/user-attachments/assets/458f4aae-6459-4a6d-aa64-94ff54ba2e5a" />
+
+4. Then click **Confirm your mail**. It will bring you to our website, and your status will be logged in.
+
+---
+
+# 2. Upload Syllabus
+
+Scroll to the bottom of the home page and click **Upload Syllabus**.
+
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/4d240a00-52e7-46d7-bbc8-fa1ba291124b" />
+
+1. Click **Choose File**.
+2. Select your syllabus file (PDF, DOCX, or TXT).
+3. After the upload is successful, you may:
+   - Upload another file, or  
+   - Ask questions about the uploaded syllabus by clicking **Ask** in the top-right menu.
+
+Once uploaded, you will be able to ask questions related to this syllabus.
+
+---
+
+# 3. Asking Questions
+
+To begin asking questions:
+
+1. Go to the **Upload** section.
+2. Select the syllabus you want to ask about.
+3. Start chatting with the assistant.
+
+**Example (MATH220: Mathematical Proof):**
+
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/8dcf4086-eaf9-41d8-b6aa-768a786b077d" />
+
+The selected course name will appear at the top of the chat box.
+
+---
+
+## Viewing Answer Sources
+
+Every AI response includes a list of sources.  
+To view the reference materials used to generate the answer:
+
+- Click the source labels at the bottom of the reply.
+
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/c604e21c-73e0-48bb-ae54-f2bbd4e6d5d0" />
+
+---
+
+## Viewing Chat History
+
+To see previous conversations:
+
+- Open the **History** section located in the top-right corner of the page.
+
+
 ## Environment Setup (Prerequisites & Configuration)
 
 **You do NOT need to install Java, Node.js, npm, Maven, or anything else. Docker handles everything.**
