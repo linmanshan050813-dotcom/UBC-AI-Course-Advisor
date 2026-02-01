@@ -128,19 +128,19 @@ GEMINI_API_KEY=YOUR_API_KEY
 ```properties
 # --- Backend Configuration ---
 # Supabase Database Connection
-SUPABASE_DB_URL=jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres
-SUPABASE_DB_USER=postgres.lmfnpreuxnexksmzzmnl
-SUPABASE_DB_PASSWORD=CPEN221Project
-SUPABASE_JWT_SECRET=GP8kzyvsAev3hOj1/dFahoErmaTMZCsvUNLCEiucEqMA+kKZtqES6fINesyJZ5lqK68A8CGZxgQsbdUckjyxfQ==
+SUPABASE_DB_URL=yours
+SUPABASE_DB_USER=yours
+SUPABASE_DB_PASSWORD=yours
+SUPABASE_JWT_SECRET=yours
 SUPABASE_STORAGE_BUCKET="course-syllabi"
-SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZm5wcmV1eG5leGtzbXp6bW5sIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDE5NjMyMCwiZXhwIjoyMDc5NzcyMzIwfQ.tF9G8nW0CaI-6uSCXcU5qFraOW14K87ybDmzGgjWhw0
+SUPABASE_SERVICE_KEY=youts
 # Gemini API
 GEMINI_API_KEY=AIzaSyDevZmU_7-PiQrwQ5HksedmuNQv0MMgan0
 
 # --- Frontend Configuration ---
 # These are needed at build time for the frontend
-VITE_SUPABASE_URL=https://lmfnpreuxnexksmzzmnl.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZm5wcmV1eG5leGtzbXp6bW5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxOTYzMjAsImV4cCI6MjA3OTc3MjMyMH0.rJ9jpHF_D4Had6SNlxI9nuW2DPD36UCvMggxjysWPX8
+VITE_SUPABASE_URL=yours
+VITE_SUPABASE_ANON_KEY=yours
 ```
 
 ---
