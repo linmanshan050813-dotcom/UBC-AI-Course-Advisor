@@ -24,7 +24,7 @@ AI Course Advisor helps students quickly find answers to their course-related qu
 # B - Product Guide and Example using
 
 ---
-#Product demo link: youtube.com/watch?v=87_czrMv3BQ&feature=youtu.be
+# Product demo link: [https://www.youtube.com/watch?v=87_czrMv3BQ&feature=youtu.be]
 
 # 1. Sign Up and Login
 Once you have opened: [http://localhost:3000](http://localhost:3000) in step 5, you should see our interface:
