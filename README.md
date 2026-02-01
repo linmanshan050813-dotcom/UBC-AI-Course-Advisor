@@ -146,25 +146,6 @@ GEMINI_MODEL=[YOUR_MODEL_VERSION]
 
 Should it be necessary, the specific values of these `.env` variables used by our team can be shared privately.
 
-**UPDATE: The specific values of these `.env` variables used by our team are pasted below in order to facilitate the evaluation process. They will be removed later on.**
-
-```properties
-# --- Backend Configuration ---
-# Supabase Database Connection
-SUPABASE_DB_URL=jdbc:postgresql://aws-1-us-east-2.pooler.supabase.com:5432/postgres
-SUPABASE_DB_USER=postgres.lmfnpreuxnexksmzzmnl
-SUPABASE_DB_PASSWORD=CPEN221Project
-SUPABASE_JWT_SECRET=GP8kzyvsAev3hOj1/dFahoErmaTMZCsvUNLCEiucEqMA+kKZtqES6fINesyJZ5lqK68A8CGZxgQsbdUckjyxfQ==
-SUPABASE_STORAGE_BUCKET="course-syllabi"
-SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZm5wcmV1eG5leGtzbXp6bW5sIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDE5NjMyMCwiZXhwIjoyMDc5NzcyMzIwfQ.tF9G8nW0CaI-6uSCXcU5qFraOW14K87ybDmzGgjWhw0
-# Gemini API
-GEMINI_API_KEY=AIzaSyDevZmU_7-PiQrwQ5HksedmuNQv0MMgan0
-
-# --- Frontend Configuration ---
-# These are needed at build time for the frontend
-VITE_SUPABASE_URL=https://lmfnpreuxnexksmzzmnl.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZm5wcmV1eG5leGtzbXp6bW5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxOTYzMjAsImV4cCI6MjA3OTc3MjMyMH0.rJ9jpHF_D4Had6SNlxI9nuW2DPD36UCvMggxjysWPX8
-```
 
 -----
 
